@@ -1,3 +1,4 @@
+/*
 for(let i = 0; i < 20; i++) {
     console.log("Ahmed")
 }
@@ -31,6 +32,14 @@ switch (today) {
         break;
 
     default:
-        console.log("ask me personally which day, from switch")
+       console.log("ask me personally which day, from switch")
         break;
 }
+*/
+function multiply (num1 , num2) {
+    let result = num1 * num2;
+    return result;
+}
+let sum = multiply (5,6)
+console.log(sum)
+  
